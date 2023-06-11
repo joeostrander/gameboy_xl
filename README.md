@@ -8,5 +8,5 @@ A larger, grown-up Gameboy... but it's not a GameMan
 ![preview](https://github.com/joeostrander/gameboy_xl/blob/main/images/preview.jpg?raw=true)
 
 
-Also check out the Gameboy consolizer that me and Andy West:
+Also check out the Gameboy consolizer that me and Andy West collaborated on:
 https://github.com/joeostrander/consolized-game-boy
