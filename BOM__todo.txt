@@ -1,0 +1,57 @@
+I haven't finalized the BOM for all these yet, but I will upload when it's ready...
+
+Gameboy CPU and RAM - get from Cheap Japanese Super Gameboy cart or from bad GB DMG motherboard
+Gameboy Cartridge slot SMD (like GB Color)
+Gameboy Cartridge slot PTH (like original GB DMG)
+7" capacitive touch LCD
+5mm LED Red
+21pos FFC connector
+oscillator
+usb-c connector
+capacitors...
+resistors...
+misc wire...
+speakers
+Lipo
+3m VHB tape
+power
+Liquid tape
+M3x20 Machine screws
+M3x5 or M3x6 Machine screws
+Screws?
+adhesive backed foam (funky foam)
+kapton tape
+
+** Lipo charge + 5V Boost PCB **
+You can also use an off-the-shelf 5V boost module and Lipo charge module, like TP4056
+usb-c connector
+lipo connector
+
+
+** Amp + Bluetooth PCB **
+5mm LED Blue
+Bluetooth module - AliExpress, search KCX BT EMITTER
+PAM8403 Audio Amplifier 
+switch for audio mode
+90º tact button
+thumbwheel potentiometer
+
+** Gameboy2LCD - RP2040 **
+RP2040 MCU
+21pos FFC connector
+40pos FFC connector
+USB Micro connector
+Tact buttons
+Level shifter
+LCD driver chip?
+Oscillator
+Flash
+Diode..etc...
+
+** I2C Breakout PCB **
+8pos FFC connector
+
+** Game controller PCB **
+diode arrays
+gb buttons
+gb button membranes
