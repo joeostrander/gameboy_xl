@@ -6,3 +6,7 @@ A larger, grown-up Gameboy... but it's not a GameMan
 2 versions you can make, 1 with a touch screen!
 
 ![preview](https://github.com/joeostrander/gameboy_xl/blob/main/images/preview.jpg?raw=true)
+
+
+Also check out the Gameboy consolizer that me and Andy West:
+https://github.com/joeostrander/consolized-game-boy
