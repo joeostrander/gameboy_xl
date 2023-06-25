@@ -129,19 +129,6 @@ int get_control_scheme_index(void)
     return control_scheme_index;
 }
 
-#ifdef REVERSE_LCD_BITS
-uint16_t rgb888_to_rgb222(uint32_t color)
-{
-        uint32_t ret = 0;
-        ret = ((color & (1<<6)) >> 5);          //b1
-        ret = ret | ((color & (1<<7)) >> 7);    //b0
-        ret = ret | ((color & (1<<14)) >> 11);  //g1
-        ret = ret | ((color & (1<<15)) >> 13);  //g0
-        ret = ret | ((color & (1<<22)) >> 17);  //r1
-        ret = ret | ((color & (1<<23)) >> 19);  //r0
-        return (uint16_t)ret;
-}
-#else
 uint16_t rgb888_to_rgb222(uint32_t color)
 {
     uint32_t red = (color & 0xC00000) >> 22;
@@ -149,4 +136,3 @@ uint16_t rgb888_to_rgb222(uint32_t color)
     uint32_t blue = (color & 0xC0) >> 6;
     return (uint16_t)( ( blue<<PICO_SCANVIDEO_PIXEL_BSHIFT ) |( green<<PICO_SCANVIDEO_PIXEL_GSHIFT ) |( red<<PICO_SCANVIDEO_PIXEL_RSHIFT ) );
 }
-#endif

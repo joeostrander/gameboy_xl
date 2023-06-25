@@ -3,8 +3,6 @@
 
 #include "pico/stdlib.h"
 
-//#define REVERSE_LCD_BITS            // on PCB v1 I reversed MSB-->LSB bits
-
 typedef enum
 {
     SCHEME_BLACK_AND_WHITE = 0,

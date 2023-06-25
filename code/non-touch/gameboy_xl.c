@@ -34,23 +34,6 @@
 #define BACKLIGHT_PWM_PIN           11  // PWM_B[5]
 #define BACKLIGHT_PWM_MAX           0xFFFF
 
-//#define RPI_PICO__V1_PCB  // when using the V1 PCB with RPi Pico
-#ifdef RPI_PICO__V1_PCB
-#pragma message ("Warning!! Compiling for PICO V1 PCB")
-#define DMG_READING_DPAD_PIN        19      // P14
-#define DMG_READING_BUTTONS_PIN     20      // P15
-#define DMG_OUTPUT_LEFT_B_PIN       26      // P11
-#define DMG_OUTPUT_DOWN_START_PIN   21      // P13
-#define DMG_OUTPUT_UP_SELECT_PIN    22      // P12
-#define DMG_OUTPUT_RIGHT_A_PIN      27      // P10
-
-// GAMEBOY VIDEO INPUT (From level shifter)
-#define VSYNC_PIN                   18
-#define HSYNC_PIN                   17
-#define PIXEL_CLOCK_PIN             16
-#define DATA_1_PIN                  15
-#define DATA_0_PIN                  14
-#else   // Bare RP2040
 #define DMG_READING_DPAD_PIN        20      // P14
 #define DMG_READING_BUTTONS_PIN     19      // P15
 #define DMG_OUTPUT_LEFT_B_PIN       26      // P11
@@ -64,7 +47,6 @@
 #define HSYNC_PIN                   16
 #define DATA_0_PIN                  15
 #define DATA_1_PIN                  14
-#endif
 
 // at 3x Game area will be 480x432 
 #define DMG_PIXELS_X                160

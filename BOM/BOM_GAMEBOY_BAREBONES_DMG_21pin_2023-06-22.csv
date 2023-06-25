@@ -1,0 +1,12 @@
+ID,Name,Designator,Footprint,Quantity,Manufacturer Part,Manufacturer,Supplier,Supplier Part
+1,27pF,"C1,C2",0603/SMD,2,,,,
+2,1uF,"C3,C4",CAP-SMD_L3.5-W2.8-R-RD,2,T491B105K050AT,KEMET,LCSC,C600503
+3,1M,R13,RESISTOR_R0603,1,,,,
+4,180K,R14,RESISTOR_R0603,1,,,,
+5,510R,"R16,R17",RESISTOR_R0603,2,,,,
+6,dmg screen connector,U1,DMG SCREEN CONNECTOR - NO HOLES,1,,,Ali-Express,
+7,LH5264 Work RAM,U2,DMG LH5264,1,,,Get from a DMG or Super Gameboy cartridge,
+8,DMG Cartridge Header PTH,U3,DMG CARTRIDGE HEADER,1,,,Get from a DMG,
+9,LH5264 Video RAM,U5,DMG LH5264,1,,,Get from a DMG or Super Gameboy cartridge,
+10,DMG-CPU-B,U8,DMG-CPU-B,1,,,Get from a DMG or Super Gameboy cartridge,
+11,ABLS-4.194304MHZ-D-4-Y-T,X2,CRYSTAL-SMD_L11.4-W4.7-LS12.7,1,ABLS-4.194304MHZ-D-4-Y-T,ABRACON,Digi-Key,535-14925
